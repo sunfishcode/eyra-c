@@ -10,7 +10,7 @@ name = "c"
 crate-type = ["staticlib"]
 
 [dependencies]
-std = { version = "0.16.9", package = "eyra", features = ["todo", "deprecated-and-unimplemented", "extra-syscalls"] }
+std = { version = "0.19.0", package = "eyra", features = ["todo", "deprecated-and-unimplemented", "extra-syscalls"] }
 
 [dev-dependencies]
 cc = "1.0"
