@@ -1,5 +1,3 @@
-#![feature(cfg_target_abi)]
-
 use pretty_assertions::assert_eq;
 use std::env::var;
 use std::process::Command;
